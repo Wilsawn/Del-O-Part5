@@ -15,6 +15,6 @@ I you hope you enjoy!!!
 ## Project 101
 
 1. Hypotenuse Calculator
-2. Rock Paper Scissors : THis game was inspered by thw youtube channel Porfolio Courses
+2. Rock Paper Scissors : This game was inspered by thw youtube channel Porfolio Courses
 
 Bye
