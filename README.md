@@ -14,7 +14,8 @@ I you hope you enjoy!!!
 
 ## Project 101
 
-1. Hypotenuse Calculator
+1. Hypotenuse calculator
 2. Rock Paper Scissors : This game was inspered by the youtube channel Porfolio Courses
+3. Circumference & area calculator
 
 Bye
