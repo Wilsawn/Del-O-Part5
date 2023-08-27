@@ -9,6 +9,6 @@ I you hope you enjoy!!!
 
 ## Project 101
 
-1. Rock Paper Scissors
+1. Hypotenuse Calculator
 
 Bye
