@@ -8,7 +8,7 @@ double numb1;
 double numb2;
 double result;
 
-printf("\nEnter the an operation (+, -, *, /): ");
+printf("\nEnter the operation (+, -, *, /): ");
 scanf("%c", &operator);
 
 printf("\nEnter the first number: ");
@@ -21,17 +21,17 @@ switch (operator){
     
     case '+':
         result = numb1 + numb2;
-        printf("\nThe result: %lf",result);
+        printf("\nThe result: %.2lf",result);
         break;
 
     case '-':
         result = numb1 - numb2;
-        printf("\nThe result: %lf",result);
+        printf("\nThe result: %.2lf",result);
         break;
 
     case '*': 
         result = numb1 * numb2;
-        printf("\nThe result: %lf",result);
+        printf("\nThe result: %.2lf",result);
         break;
 
     case '/':
