@@ -4,43 +4,43 @@
 int main(){
 
 char operator;
-double numb1;
-double numb2;
+double num1;
+double num2;
 double result;
 
-printf("\nEnter the operation (+, -, *, /): ");
-scanf("%c", &operator);
+printf("\nChoice an operator (+,-,*,/):");
+scanf("%c",&operator);
 
 printf("\nEnter the first number: ");
-scanf("%lf",&numb1);
+scanf("%lf",&num1);
 
 printf("\nEnter the second number: ");
-scanf("%lf",&numb2);
+scanf("%lf",&num2);
 
-switch (operator){
-    
+switch(operator){
+
     case '+':
-        result = numb1 + numb2;
+        result = num1 +num2;
         printf("\nThe result: %.2lf",result);
         break;
 
     case '-':
-        result = numb1 - numb2;
+        result = num1 - num2;
         printf("\nThe result: %.2lf",result);
         break;
 
-    case '*': 
-        result = numb1 * numb2;
+    case '*':
+        result = num1 * num2;
         printf("\nThe result: %.2lf",result);
         break;
 
     case '/':
-        result = numb1 / numb2;
-    
-    default: 
-        printf("\n%c is not a valid operator", operator);
+        result = num1 / num2;
+        printf("\nThe result: %.2lf",result);
+        break;
+
+    default:
+        printf("%c is not a valid operater", operator);
 }
-
-
     return 0;
 }
